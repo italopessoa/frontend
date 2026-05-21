@@ -115,7 +115,7 @@ docker run --rm -p 3000:3000 \
 
 1. Clone the repository
 2. Update .env file
-   ```
+   ```env
    # 'neo4j' not 'localhost' because in docker-compose we use the service name "neo4j" to connect to the database container.
    DB_URL=neo4j://neo4j:7687 
    DB_USERNAME=neo4j
